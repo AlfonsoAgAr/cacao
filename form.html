@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pastelería de Alfonso</title>
+        <link rel="stylesheet" href="./src/css/styles.css" 
+    </head>
+    <body>
+        <div id="container">
+            <header>
+                <img src="./src/imgs/logo.png" alt="logo_pastel" width="200px" height="200px">
+            </header>
+
+            <nav class="menu">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="form.html">Realiza un pedido</a></li>
+                    <li><a href="pedido.html">Pedidos</a></li>
+                </ul>
+            </nav>
+
+            <div class="clearfix"></div>
+
+            <section id="content">
+                <div class="formulario_pastel"> 
+                    <form action="action_page">
+                        <div class="row">
+                          <div class="col-25">
+                            <label for="fname">Nombre</label>
+                          </div>
+                          <div class="col-75">
+                            <input type="text" id="fname" name="firstname" placeholder="Introduce tu nombre">
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-25">
+                            <label for="lname">Apellidos</label>
+                          </div>
+                          <div class="col-75">
+                            <input type="text" id="lname" name="lastname" placeholder="Tus Apellidos">
+                          </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-25">
+                              <label for="lname">Número telefónico</label>
+                            </div>
+                            <div class="col-75">
+                              <input type="tel" id="lname" name="lastname" placeholder="Tu número telefónico a 10 dígitos" maxlength="10">
+                            </div>
+                          </div>
+                        <div class="row">
+                          <div class="col-25">
+                            <label for="country">Estado</label>
+                          </div>
+                          <div class="col-75">
+                            <select id="Estado" name="country">
+                              <option value="cdmx">CDMX</option>
+                              <option value="queretaro">Queretaro</option>
+                              <option value="sonora">Sonora</option>
+                              <option value="oaxaca">oaxaca</option>
+                              <option value="jalisco">Jalisco</option>
+                              <option value="nuevoleon">Nuevo León</option>
+                            </select>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-25">
+                            <label for="subject">Detalles de tu pedido</label>
+                          </div>
+                          <div class="col-75">
+                            <textarea id="subject" name="subject" placeholder="Escribe todos los detalles de tu pedido" style="height:200px"></textarea>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <input type="submit" value="Hecho" disabled>
+                        </div>
+                      </form>    
+                </div>
+            </section>
+            <div class="clearfix"></div>
+            <footer>
+              <h3>CACAO, Casa de Pastel y Chocolate.</h3> 
+              <h5>	
+                  No 101, Col. Centro, Boca del Rio, Veracruz. 229-263-1645. Horario de atención: 08:00 AM - 08:00 PM.
+              </h5>
+              <h5>FrontEnd - HTML - Práctica</h5>
+            </footer>
+        </div>
+    </body>
+</html>

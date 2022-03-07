@@ -1,0 +1,224 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background: black;
+    font-family: Cambria;
+    /* color: white; */
+}
+header{
+    background: white;
+    text-align: center;
+}
+.menu{
+    height:50px;
+    background: #FEDFD8;
+}
+/* nav ul li{
+    float: left;
+
+    list-style: none;
+    line-height: 20px;
+} */
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 15px 40px;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    height: 50px;
+    line-height: 20px;
+    color: white;
+}
+.clearfix{
+    clear: both;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: white;
+    max-width: 280px;
+    margin: 30px;
+    text-align: center;
+    font-family: Cambria;
+    width: 100%;
+    float: left;
+    width: 100%;
+    margin-bottom: 30px;
+    color: grey;
+  }
+  
+.price {
+    padding: 10px;
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: monospace;   
+  }
+  
+.card button {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border: none;
+    outline: 0;
+    padding: 22px;
+    color: black;
+    background-color: #FEDFD8;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+.card button:hover {
+    opacity: 0.7;
+  }
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+#content{
+    width: 100%;
+    float: left;
+    min-height: 100%;
+    background: white;    
+    margin: 0px auto;
+}
+
+input[type=text], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+  }
+input[type=tel], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+  }
+  
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+input[type=submit] {
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+
+.formulario_pastel {
+    padding: 30px 24px;
+}
+
+
+.pedidos {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+    padding-inline-start: 32%;
+    padding-bottom: 80px;
+    padding-top: 24px;
+
+  }
+.pedidos td, .pedidos th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+.pedidos tr:nth-child(even){background-color: #FEDFD8;}
+.pedidos tr:hover {background-color: #ddd;}
+.pedidos th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: black;
+    color: white;
+  }
+
+
+
+.pasteles {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+    padding-inline-start: 37%;
+    padding-bottom: 80px;
+  }
+.pasteles td, .pasteles th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+.pasteles tr:nth-child(even){background-color: #FEDFD8;}
+.pasteles tr:hover {background-color: #ddd;}
+.pasteles th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: black;
+    color: white;
+  }
+
+.inventario {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+    padding-inline-start: 36%;
+    padding-bottom: 80px;
+  }
+.inventario td, .inventario th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+.inventario tr:nth-child(even){background-color: #FEDFD8;}
+.inventario tr:hover {background-color: #ddd;}
+.inventario th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: black;
+    color: white;
+  }
